@@ -39,17 +39,17 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
         public void Load(IDVDProfilerAPI api)
         {
             this.Api = api;
-            if(Directory.Exists(this.ApplicationPath) == false)
+            if (Directory.Exists(this.ApplicationPath) == false)
             {
                 Directory.CreateDirectory(this.ApplicationPath);
             }
-            if(File.Exists(this.SettingsFile))
+            if (File.Exists(this.SettingsFile))
             {
                 try
                 {
                     Settings = Settings.Deserialize(this.SettingsFile);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeRead, this.SettingsFile, ex.Message)
                         , MessageBoxTexts.ErrorHeader, MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -68,7 +68,7 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
             {
                 Settings.Serialize(this.SettingsFile);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeWritten, this.SettingsFile, ex.Message)
                     , MessageBoxTexts.ErrorHeader, MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -78,7 +78,7 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
 
         public void HandleEvent(Int32 EventType, Object EventData)
         {
-            if(EventType == PluginConstants.EVENTID_CustomMenuClick)
+            if (EventType == PluginConstants.EVENTID_CustomMenuClick)
             {
                 this.HandleMenuClick((Int32)EventData);
             }
@@ -129,16 +129,16 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
 
         private void HandleMenuClick(Int32 MenuEventID)
         {
-            if(MenuEventID == MenuId)
+            if (MenuEventID == MenuId)
             {
                 try
                 {
-                    using(MainForm mainForm = new MainForm(this.Api))
+                    using (MainForm mainForm = new MainForm(this.Api))
                     {
                         mainForm.ShowDialog();
                     }
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     try
                     {
@@ -146,14 +146,14 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
 
                         MessageBox.Show(String.Format(MessageBoxTexts.CriticalError, ex.Message, this.ErrorFile)
                             , MessageBoxTexts.CriticalErrorHeader, MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                        if(File.Exists(this.ErrorFile))
+                        if (File.Exists(this.ErrorFile))
                         {
                             File.Delete(ErrorFile);
                         }
                         exceptionXml = new ExceptionXml(ex);
-                        Serializer<ExceptionXml>.Serialize(ErrorFile, exceptionXml);
+                        DVDProfilerSerializer<ExceptionXml>.Serialize(ErrorFile, exceptionXml);
                     }
-                    catch(Exception inEx)
+                    catch (Exception inEx)
                     {
                         MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeWritten, this.ErrorFile, inEx.Message)
                             , MessageBoxTexts.ErrorHeader, MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -164,15 +164,15 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
 
         private static void CreateSettings()
         {
-            if(Settings == null)
+            if (Settings == null)
             {
                 Settings = new Settings();
             }
-            if(Settings.MainForm == null)
+            if (Settings.MainForm == null)
             {
                 Settings.MainForm = new SizableForm();
             }
-            if(Settings.DefaultValues == null)
+            if (Settings.DefaultValues == null)
             {
                 Settings.DefaultValues = new DefaultValues();
             }

@@ -1,11 +1,11 @@
 [Setup]
 AppName=Clean Profile
 AppId=CleanProfile
-AppVerName=Clean Profile 2.0.1.0
-AppCopyright=Copyright © Doena Soft. 2012 - 2015
+AppVerName=Clean Profile 2.0.1.1
+AppCopyright=Copyright © Doena Soft. 2012 - 2020
 AppPublisher=Doena Soft.
 AppPublisherURL=http://doena-journal.net/en/dvd-profiler-tools/
-DefaultDirName={pf32}\Doena Soft.\Clean Profile
+DefaultDirName={commonpf32}\Doena Soft.\Clean Profile
 ; DefaultGroupName=Doena Soft.
 DirExistsWarning=No
 SourceDir=..\CleanProfile\bin\x86\CleanProfile
@@ -13,16 +13,16 @@ Compression=zip/9
 AppMutex=InvelosDVDPro
 OutputBaseFilename=CleanProfileSetup
 OutputDir=..\..\..\..\CleanProfileSetup\Setup\CleanProfile
-MinVersion=0,5.1
+MinVersion=0,6.0
 PrivilegesRequired=admin
 WizardImageFile=compiler:wizmodernimage-is.bmp
 WizardSmallImageFile=compiler:wizmodernsmallimage-is.bmp
 DisableReadyPage=yes
 ShowLanguageDialog=no
 VersionInfoCompany=Doena Soft.
-VersionInfoCopyright=2012 - 2015
+VersionInfoCopyright=2012 - 2020
 VersionInfoDescription=Clean Profile Setup
-VersionInfoVersion=2.0.1.0
+VersionInfoVersion=2.0.1.1
 UninstallDisplayIcon={app}\djdsoft.ico
 
 [Languages]
