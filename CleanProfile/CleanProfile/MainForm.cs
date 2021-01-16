@@ -88,17 +88,27 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
                 {
                     case ("DVD"):
                         {
-                            profile.SetMediaTypes(true, false, false);
+                            profile.SetMediaTypes(true, false, false, false);
                             break;
                         }
                     case ("BR"):
                         {
-                            profile.SetMediaTypes(false, false, true);
+                            profile.SetMediaTypes(false, false, true, false);
                             break;
                         }
                     case ("DVD+BR"):
                         {
-                            profile.SetMediaTypes(true, false, true);
+                            profile.SetMediaTypes(true, false, true, false);
+                            break;
+                        }
+                    case ("UltraHD"):
+                        {
+                            profile.SetMediaTypes(false, false, false, true);
+                            break;
+                        }
+                    case ("BR+UltraHD"):
+                        {
+                            profile.SetMediaTypes(false, false, true, true);
                             break;
                         }
                 }
@@ -282,6 +292,11 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
                 SetFeature(profile, PluginConstants.FEATURE_DigitalCopy);
                 SetFeature(profile, PluginConstants.FEATURE_PIP);
                 SetFeature(profile, PluginConstants.FEATURE_BDLive);
+
+                SetFeature(profile, PluginConstants.FEATURE_CineChat);
+                SetFeature(profile, PluginConstants.FEATURE_DBOX);
+                SetFeature(profile, PluginConstants.FEATURE_MovieIQ);
+                SetFeature(profile, PluginConstants.FEATURE_PlayAll);
 
                 profile.SetOtherFeatures(String.Empty);
             }

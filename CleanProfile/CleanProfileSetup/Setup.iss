@@ -1,8 +1,8 @@
 [Setup]
 AppName=Clean Profile
 AppId=CleanProfile
-AppVerName=Clean Profile 2.0.1.1
-AppCopyright=Copyright © Doena Soft. 2012 - 2020
+AppVerName=Clean Profile 2.0.1.2
+AppCopyright=Copyright © Doena Soft. 2012 - 2021
 AppPublisher=Doena Soft.
 AppPublisherURL=http://doena-journal.net/en/dvd-profiler-tools/
 DefaultDirName={commonpf32}\Doena Soft.\Clean Profile
@@ -20,9 +20,9 @@ WizardSmallImageFile=compiler:wizmodernsmallimage-is.bmp
 DisableReadyPage=yes
 ShowLanguageDialog=no
 VersionInfoCompany=Doena Soft.
-VersionInfoCopyright=2012 - 2020
+VersionInfoCopyright=2012 - 2021
 VersionInfoDescription=Clean Profile Setup
-VersionInfoVersion=2.0.1.1
+VersionInfoVersion=2.0.1.2
 UninstallDisplayIcon={app}\djdsoft.ico
 
 [Languages]

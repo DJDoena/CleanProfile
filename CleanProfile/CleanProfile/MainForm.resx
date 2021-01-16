@@ -112,19 +112,19 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="OkButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>254, 671</value>
   </data>
   <data name="OkButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="OkButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -135,7 +135,7 @@
     <value>OkButton</value>
   </data>
   <data name="&gt;&gt;OkButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;OkButton.Parent" xml:space="preserve">
     <value>$this</value>
@@ -143,7 +143,7 @@
   <data name="&gt;&gt;OkButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="AbortButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -163,7 +163,7 @@
     <value>AbortButton</value>
   </data>
   <data name="&gt;&gt;AbortButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;AbortButton.Parent" xml:space="preserve">
     <value>$this</value>
@@ -193,7 +193,7 @@
     <value>EntireDvdLockCheckBox</value>
   </data>
   <data name="&gt;&gt;EntireDvdLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;EntireDvdLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnEntireGroupBox</value>
@@ -217,7 +217,7 @@
     <value>SetLockOnEntireGroupBox</value>
   </data>
   <data name="&gt;&gt;SetLockOnEntireGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SetLockOnEntireGroupBox.Parent" xml:space="preserve">
     <value>PublicTabPage</value>
@@ -250,7 +250,7 @@
     <value>OriginalTitleLockCheckBox</value>
   </data>
   <data name="&gt;&gt;OriginalTitleLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;OriginalTitleLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -280,7 +280,7 @@
     <value>DiscsLockCheckBox</value>
   </data>
   <data name="&gt;&gt;DiscsLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;DiscsLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -310,7 +310,7 @@
     <value>MediaTypesLockCheckBox</value>
   </data>
   <data name="&gt;&gt;MediaTypesLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MediaTypesLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -340,7 +340,7 @@
     <value>EasterEggsLockCheckBox</value>
   </data>
   <data name="&gt;&gt;EasterEggsLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;EasterEggsLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -370,7 +370,7 @@
     <value>CaseTypeLockCheckBox</value>
   </data>
   <data name="&gt;&gt;CaseTypeLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CaseTypeLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -400,7 +400,7 @@
     <value>OverviewLockCheckBox</value>
   </data>
   <data name="&gt;&gt;OverviewLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;OverviewLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -430,7 +430,7 @@
     <value>FeaturesLockCheckBox</value>
   </data>
   <data name="&gt;&gt;FeaturesLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;FeaturesLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -460,7 +460,7 @@
     <value>RatingLockCheckBox</value>
   </data>
   <data name="&gt;&gt;RatingLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;RatingLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -490,7 +490,7 @@
     <value>CrewLockCheckBox</value>
   </data>
   <data name="&gt;&gt;CrewLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CrewLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -520,7 +520,7 @@
     <value>CastLockCheckBox</value>
   </data>
   <data name="&gt;&gt;CastLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CastLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -550,7 +550,7 @@
     <value>AudioTracksLockCheckBox</value>
   </data>
   <data name="&gt;&gt;AudioTracksLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;AudioTracksLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -580,7 +580,7 @@
     <value>CoverImagesLockCheckBox</value>
   </data>
   <data name="&gt;&gt;CoverImagesLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CoverImagesLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -610,7 +610,7 @@
     <value>ProductionYearLockCheckBox</value>
   </data>
   <data name="&gt;&gt;ProductionYearLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ProductionYearLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -643,7 +643,7 @@
     <value>CountryOfOriginLockCheckBox</value>
   </data>
   <data name="&gt;&gt;CountryOfOriginLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CountryOfOriginLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -673,7 +673,7 @@
     <value>GenresLockCheckBox</value>
   </data>
   <data name="&gt;&gt;GenresLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;GenresLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -703,7 +703,7 @@
     <value>SubtitlesLockCheckBox</value>
   </data>
   <data name="&gt;&gt;SubtitlesLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SubtitlesLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -733,7 +733,7 @@
     <value>ReleaseDateLockCheckBox</value>
   </data>
   <data name="&gt;&gt;ReleaseDateLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ReleaseDateLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -763,7 +763,7 @@
     <value>SrpLockCheckBox</value>
   </data>
   <data name="&gt;&gt;SrpLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SrpLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -796,7 +796,7 @@
     <value>MediaCompaniesLockCheckBox</value>
   </data>
   <data name="&gt;&gt;MediaCompaniesLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MediaCompaniesLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -826,7 +826,7 @@
     <value>StudiosLockCheckBox</value>
   </data>
   <data name="&gt;&gt;StudiosLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;StudiosLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -856,7 +856,7 @@
     <value>VideoFormatsLockCheckBox</value>
   </data>
   <data name="&gt;&gt;VideoFormatsLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;VideoFormatsLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -886,7 +886,7 @@
     <value>RegionsLockCheckBox</value>
   </data>
   <data name="&gt;&gt;RegionsLockCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;RegionsLockCheckBox.Parent" xml:space="preserve">
     <value>SetLockOnGroupBox</value>
@@ -910,7 +910,7 @@
     <value>SetLockOnGroupBox</value>
   </data>
   <data name="&gt;&gt;SetLockOnGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SetLockOnGroupBox.Parent" xml:space="preserve">
     <value>PublicTabPage</value>
@@ -927,6 +927,12 @@
   <data name="MediaTypesComboBox.Items2" xml:space="preserve">
     <value>DVD+BR</value>
   </data>
+  <data name="MediaTypesComboBox.Items3" xml:space="preserve">
+    <value>UltraHD</value>
+  </data>
+  <data name="MediaTypesComboBox.Items4" xml:space="preserve">
+    <value>BR+UltraHD</value>
+  </data>
   <data name="MediaTypesComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 15</value>
   </data>
@@ -940,7 +946,7 @@
     <value>MediaTypesComboBox</value>
   </data>
   <data name="&gt;&gt;MediaTypesComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MediaTypesComboBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -970,7 +976,7 @@
     <value>MediaTypesCheckBox</value>
   </data>
   <data name="&gt;&gt;MediaTypesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MediaTypesCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1000,7 +1006,7 @@
     <value>OriginalTitleCheckBox</value>
   </data>
   <data name="&gt;&gt;OriginalTitleCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;OriginalTitleCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1030,7 +1036,7 @@
     <value>BackCoverImagesCheckBox</value>
   </data>
   <data name="&gt;&gt;BackCoverImagesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BackCoverImagesCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1060,7 +1066,7 @@
     <value>DiscsCheckBox</value>
   </data>
   <data name="&gt;&gt;DiscsCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;DiscsCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1090,7 +1096,7 @@
     <value>EasterEggsCheckBox</value>
   </data>
   <data name="&gt;&gt;EasterEggsCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;EasterEggsCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1120,7 +1126,7 @@
     <value>OverviewCheckBox</value>
   </data>
   <data name="&gt;&gt;OverviewCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;OverviewCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1150,7 +1156,7 @@
     <value>FeaturesCheckBox</value>
   </data>
   <data name="&gt;&gt;FeaturesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;FeaturesCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1180,7 +1186,7 @@
     <value>CaseTypeCheckBox</value>
   </data>
   <data name="&gt;&gt;CaseTypeCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CaseTypeCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1210,7 +1216,7 @@
     <value>RatingCheckBox</value>
   </data>
   <data name="&gt;&gt;RatingCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;RatingCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1240,7 +1246,7 @@
     <value>CrewCheckBox</value>
   </data>
   <data name="&gt;&gt;CrewCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CrewCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1270,7 +1276,7 @@
     <value>CastCheckBox</value>
   </data>
   <data name="&gt;&gt;CastCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CastCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1300,7 +1306,7 @@
     <value>AudioTracksCheckBox</value>
   </data>
   <data name="&gt;&gt;AudioTracksCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;AudioTracksCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1330,7 +1336,7 @@
     <value>FrontCoverImagesCheckBox</value>
   </data>
   <data name="&gt;&gt;FrontCoverImagesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;FrontCoverImagesCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1360,7 +1366,7 @@
     <value>ProductionYearCheckBox</value>
   </data>
   <data name="&gt;&gt;ProductionYearCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ProductionYearCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1390,7 +1396,7 @@
     <value>CountryOfOriginCheckBox</value>
   </data>
   <data name="&gt;&gt;CountryOfOriginCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CountryOfOriginCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1420,7 +1426,7 @@
     <value>GenresCheckBox</value>
   </data>
   <data name="&gt;&gt;GenresCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;GenresCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1450,7 +1456,7 @@
     <value>SubtitlesCheckBox</value>
   </data>
   <data name="&gt;&gt;SubtitlesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SubtitlesCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1480,7 +1486,7 @@
     <value>ReleaseDateCheckBox</value>
   </data>
   <data name="&gt;&gt;ReleaseDateCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ReleaseDateCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1510,7 +1516,7 @@
     <value>SrpCheckBox</value>
   </data>
   <data name="&gt;&gt;SrpCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SrpCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1540,7 +1546,7 @@
     <value>MediaCompaniesCheckBox</value>
   </data>
   <data name="&gt;&gt;MediaCompaniesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MediaCompaniesCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1570,7 +1576,7 @@
     <value>StudiosCheckBox</value>
   </data>
   <data name="&gt;&gt;StudiosCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;StudiosCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1600,7 +1606,7 @@
     <value>VideoFormatsCheckBox</value>
   </data>
   <data name="&gt;&gt;VideoFormatsCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;VideoFormatsCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1630,7 +1636,7 @@
     <value>RegionsCheckBox</value>
   </data>
   <data name="&gt;&gt;RegionsCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;RegionsCheckBox.Parent" xml:space="preserve">
     <value>OverwriteGroupBox</value>
@@ -1654,7 +1660,7 @@
     <value>OverwriteGroupBox</value>
   </data>
   <data name="&gt;&gt;OverwriteGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;OverwriteGroupBox.Parent" xml:space="preserve">
     <value>PublicTabPage</value>
@@ -1681,7 +1687,7 @@
     <value>PublicTabPage</value>
   </data>
   <data name="&gt;&gt;PublicTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;PublicTabPage.Parent" xml:space="preserve">
     <value>TabControl</value>
@@ -1702,7 +1708,7 @@
     <value>TabControl</value>
   </data>
   <data name="&gt;&gt;TabControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TabControl.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1710,7 +1716,7 @@
   <data name="&gt;&gt;TabControl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
@@ -1735,7 +1741,7 @@
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>419, 24</value>
+    <value>409, 24</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1747,7 +1753,7 @@
     <value>menuStrip1</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1755,14 +1761,14 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>419, 706</value>
+    <value>409, 696</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1799,24 +1805,24 @@
     <value>helpToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Name" xml:space="preserve">
     <value>checkForUpdatesToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

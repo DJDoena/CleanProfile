@@ -337,7 +337,9 @@
             this.MediaTypesComboBox.Items.AddRange(new object[] {
             resources.GetString("MediaTypesComboBox.Items"),
             resources.GetString("MediaTypesComboBox.Items1"),
-            resources.GetString("MediaTypesComboBox.Items2")});
+            resources.GetString("MediaTypesComboBox.Items2"),
+            resources.GetString("MediaTypesComboBox.Items3"),
+            resources.GetString("MediaTypesComboBox.Items4")});
             resources.ApplyResources(this.MediaTypesComboBox, "MediaTypesComboBox");
             this.MediaTypesComboBox.Name = "MediaTypesComboBox";
             // 

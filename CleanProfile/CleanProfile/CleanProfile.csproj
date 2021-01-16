@@ -118,8 +118,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\PluginInterface\PluginInterface.4.cs">
-      <Link>PluginInterface.4.cs</Link>
+    <Compile Include="..\..\PluginInterface\PluginInterface.5.cs">
+      <Link>PluginInterface.5.cs</Link>
     </Compile>
     <Compile Include="DefaultValues.cs" />
     <Compile Include="MainForm.cs">
