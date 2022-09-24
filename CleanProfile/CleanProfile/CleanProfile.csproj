@@ -11,7 +11,7 @@
     </ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>CleanProfile</AssemblyName>
+    <AssemblyName>DoenaSoft.CleanProfile</AssemblyName>
     <AssemblyOriginatorKeyFile>CleanProfile.snk</AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
@@ -29,6 +29,8 @@
     <OldToolsVersion>3.5</OldToolsVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -149,18 +151,18 @@
     <Content Include="DJDSOFT.ICO" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DVDProfilerHelper\DVDProfilerHelper\DVDProfilerHelper.csproj">
-      <Project>{461DACCA-8EBF-4C03-AD1A-C438E4EB3B36}</Project>
-      <Name>DVDProfilerHelper</Name>
-    </ProjectReference>
+    <None Include="CleanProfile.snk" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CleanProfile.snk" />
+    <PackageReference Include="DoenaSoft.DVDProfilerHelper">
+      <Version>2.2.9</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>"%25ProgramFiles%25\Inno Setup 6\iscc.exe"  ..\..\..\..\CleanProfileSetup\Setup.iss</PostBuildEvent>
+    <PostBuildEvent>copy ..\..\..\djdsoft.ico .
+"%25ProgramFiles(x86)%25\Inno Setup 6\iscc.exe"  ..\..\..\..\CleanProfileSetup\Setup.iss</PostBuildEvent>
   </PropertyGroup>
 </Project>

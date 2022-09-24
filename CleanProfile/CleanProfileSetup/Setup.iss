@@ -2,7 +2,7 @@
 AppName=Clean Profile
 AppId=CleanProfile
 AppVerName=Clean Profile 2.0.1.3
-AppCopyright=Copyright © Doena Soft. 2012 - 2021
+AppCopyright=Copyright © Doena Soft. 2012 - 2022
 AppPublisher=Doena Soft.
 AppPublisherURL=http://doena-journal.net/en/dvd-profiler-tools/
 DefaultDirName={commonpf32}\Doena Soft.\Clean Profile
@@ -13,14 +13,13 @@ Compression=zip/9
 AppMutex=InvelosDVDPro
 OutputBaseFilename=CleanProfileSetup
 OutputDir=..\..\..\..\CleanProfileSetup\Setup\CleanProfile
-MinVersion=0,6.0
+MinVersion=0,6.1sp1
 PrivilegesRequired=admin
-WizardImageFile=compiler:wizmodernimage-is.bmp
-WizardSmallImageFile=compiler:wizmodernsmallimage-is.bmp
+WizardStyle=modern
 DisableReadyPage=yes
 ShowLanguageDialog=no
 VersionInfoCompany=Doena Soft.
-VersionInfoCopyright=2012 - 2021
+VersionInfoCopyright=2012 - 2022
 VersionInfoDescription=Clean Profile Setup
 VersionInfoVersion=2.0.1.3
 UninstallDisplayIcon={app}\djdsoft.ico
@@ -36,22 +35,23 @@ Name: "full"; Description: "Full installation"
 
 [Files]
 Source: "djdsoft.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "DVDProfilerHelper.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "DVDProfilerHelper.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "CleanProfile.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "CleanProfile.pdb"; DestDir: "{app}"; Flags: ignoreversion
 
-Source: "de\DVDProfilerHelper.resources.dll"; DestDir: "{app}\de"; Flags: ignoreversion
+Source: "DoenaSoft.CleanProfile.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "DoenaSoft.CleanProfile.pdb"; DestDir: "{app}"; Flags: ignoreversion
+
+Source: "DoenaSoft.DVDProfilerHelper.dll"; DestDir: "{app}"; Flags: ignoreversion
+
+Source: "de\DoenaSoft.DVDProfilerHelper.resources.dll"; DestDir: "{app}\de"; Flags: ignoreversion
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Run]
-Filename: "{win}\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe"; Parameters: "/codebase ""{app}\CleanProfile.dll"""; Flags: runhidden
+Filename: "{win}\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe"; Parameters: "/codebase ""{app}\DoenaSoft.CleanProfile.dll"""; Flags: runhidden
 
 ;[UninstallDelete]
 
 [UninstallRun]
-Filename: "{win}\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe"; Parameters: "/u ""{app}\CleanProfile.dll"""; Flags: runhidden
+Filename: "{win}\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe"; Parameters: "/u ""{app}\DoenaSoft.CleanProfile.dll"""; Flags: runhidden
 
 [Registry]
 ; Register - Cleanup ahead of time in case the user didn't uninstall the previous version.
