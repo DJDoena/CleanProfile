@@ -30,6 +30,11 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
 
         private String MenuTokenISCP = "";
 
+        static Plugin()
+        {
+            DVDProfilerHelperAssemblyLoader.Load();
+        }
+
         public Plugin()
         {
             ApplicationPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Doena Soft\CleanProfileSettings\";
