@@ -3,6 +3,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using DoenaSoft.DVDProfiler.DVDProfilerHelper;
+using DoenaSoft.ToolBox.Generics;
 using Invelos.DVDProfilerPlugin;
 
 namespace DoenaSoft.DVDProfiler.CleanProfile
@@ -31,49 +32,49 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
 
         public Plugin()
         {
-            this.ApplicationPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Doena Soft\CleanProfileSettings\";
-            this.SettingsFile = ApplicationPath + "CleanProfileSettings.xml";
-            this.ErrorFile = Environment.GetEnvironmentVariable("TEMP") + @"\CleanProfileCrash.xml";
+            ApplicationPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Doena Soft\CleanProfileSettings\";
+            SettingsFile = ApplicationPath + "CleanProfileSettings.xml";
+            ErrorFile = Environment.GetEnvironmentVariable("TEMP") + @"\CleanProfileCrash.xml";
         }
 
         public void Load(IDVDProfilerAPI api)
         {
-            this.Api = api;
-            if (Directory.Exists(this.ApplicationPath) == false)
+            Api = api;
+            if (Directory.Exists(ApplicationPath) == false)
             {
-                Directory.CreateDirectory(this.ApplicationPath);
+                Directory.CreateDirectory(ApplicationPath);
             }
-            if (File.Exists(this.SettingsFile))
+            if (File.Exists(SettingsFile))
             {
                 try
                 {
-                    Settings = Settings.Deserialize(this.SettingsFile);
+                    Settings = Settings.Deserialize(SettingsFile);
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeRead, this.SettingsFile, ex.Message)
+                    MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeRead, SettingsFile, ex.Message)
                         , MessageBoxTexts.ErrorHeader, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             CreateSettings();
-            this.Api.RegisterForEvent(PluginConstants.EVENTID_FormCreated);
-            MenuTokenISCP = this.Api.RegisterMenuItem(PluginConstants.FORMID_Main, PluginConstants.MENUID_Form
+            Api.RegisterForEvent(PluginConstants.EVENTID_FormCreated);
+            MenuTokenISCP = Api.RegisterMenuItem(PluginConstants.FORMID_Main, PluginConstants.MENUID_Form
                 , @"DVD", "Clean Profile", MenuId);
         }
 
         public void Unload()
         {
-            this.Api.UnregisterMenuItem(MenuTokenISCP);
+            Api.UnregisterMenuItem(MenuTokenISCP);
             try
             {
-                Settings.Serialize(this.SettingsFile);
+                Settings.Serialize(SettingsFile);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeWritten, this.SettingsFile, ex.Message)
+                MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeWritten, SettingsFile, ex.Message)
                     , MessageBoxTexts.ErrorHeader, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            this.Api = null;
+            Api = null;
         }
 
         public void HandleEvent(Int32 EventType, Object EventData)
@@ -133,7 +134,7 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
             {
                 try
                 {
-                    using (MainForm mainForm = new MainForm(this.Api))
+                    using (MainForm mainForm = new MainForm(Api))
                     {
                         mainForm.ShowDialog();
                     }
@@ -144,18 +145,18 @@ namespace DoenaSoft.DVDProfiler.CleanProfile
                     {
                         ExceptionXml exceptionXml;
 
-                        MessageBox.Show(String.Format(MessageBoxTexts.CriticalError, ex.Message, this.ErrorFile)
+                        MessageBox.Show(String.Format(MessageBoxTexts.CriticalError, ex.Message, ErrorFile)
                             , MessageBoxTexts.CriticalErrorHeader, MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                        if (File.Exists(this.ErrorFile))
+                        if (File.Exists(ErrorFile))
                         {
                             File.Delete(ErrorFile);
                         }
                         exceptionXml = new ExceptionXml(ex);
-                        DVDProfilerSerializer<ExceptionXml>.Serialize(ErrorFile, exceptionXml);
+                        XmlSerializer<ExceptionXml>.Serialize(ErrorFile, exceptionXml);
                     }
                     catch (Exception inEx)
                     {
-                        MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeWritten, this.ErrorFile, inEx.Message)
+                        MessageBox.Show(String.Format(MessageBoxTexts.FileCantBeWritten, ErrorFile, inEx.Message)
                             , MessageBoxTexts.ErrorHeader, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }

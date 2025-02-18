@@ -1,27 +1,27 @@
 [Setup]
 AppName=Clean Profile
 AppId=CleanProfile
-AppVerName=Clean Profile 2.0.1.3
-AppCopyright=Copyright © Doena Soft. 2012 - 2022
+AppVerName=Clean Profile 2.0.2
+AppCopyright=Copyright © Doena Soft. 2012 - 2025
 AppPublisher=Doena Soft.
 AppPublisherURL=http://doena-journal.net/en/dvd-profiler-tools/
 DefaultDirName={commonpf32}\Doena Soft.\Clean Profile
 ; DefaultGroupName=Doena Soft.
 DirExistsWarning=No
-SourceDir=..\CleanProfile\bin\x86\CleanProfile
+SourceDir=..\CleanProfile\bin\x86\Release\net472
 Compression=zip/9
 AppMutex=InvelosDVDPro
 OutputBaseFilename=CleanProfileSetup
-OutputDir=..\..\..\..\CleanProfileSetup\Setup\CleanProfile
+OutputDir=..\..\..\..\..\CleanProfileSetup\Setup\AddByDvdDiscId
 MinVersion=0,6.1sp1
 PrivilegesRequired=admin
 WizardStyle=modern
 DisableReadyPage=yes
 ShowLanguageDialog=no
 VersionInfoCompany=Doena Soft.
-VersionInfoCopyright=2012 - 2022
+VersionInfoCopyright=2012 - 2025
 VersionInfoDescription=Clean Profile Setup
-VersionInfoVersion=2.0.1.3
+VersionInfoVersion=2.0.2
 UninstallDisplayIcon={app}\djdsoft.ico
 
 [Languages]
@@ -36,12 +36,10 @@ Name: "full"; Description: "Full installation"
 [Files]
 Source: "djdsoft.ico"; DestDir: "{app}"; Flags: ignoreversion
 
-Source: "DoenaSoft.CleanProfile.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "DoenaSoft.CleanProfile.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "*.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "*.pdb"; DestDir: "{app}"; Flags: ignoreversion
 
-Source: "DoenaSoft.DVDProfilerHelper.dll"; DestDir: "{app}"; Flags: ignoreversion
-
-Source: "de\DoenaSoft.DVDProfilerHelper.resources.dll"; DestDir: "{app}\de"; Flags: ignoreversion
+Source: "de\*.dll"; DestDir: "{app}\de"; Flags: ignoreversion
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
